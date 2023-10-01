@@ -66,7 +66,7 @@ class RestaurantTest {
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
     @Test
-    public void getting_order_value(){
+    public void order_value_should_be_the_sum_of_prices_of_ordered_items(){
         ArrayList<String> orderItems= new ArrayList<String>();
         orderItems.add("Sweet corn soup");
         orderItems.add("Vegetable lasagne");
